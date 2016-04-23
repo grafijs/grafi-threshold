@@ -1,14 +1,6 @@
 # grafi-threshold
 
-This is your grafi module!
-
-1. befor you start, make sure to `npm install`
-1. edit `/src/threshold.js` there should be `threshold` function already setup
-1. `npm run build` will create distribution file `grafi-threshold.js`
-1. make sure to `npm test`! edit `grafi-threshold.test.js` as you need
-1. edit this README.md (more documentation the better !)
-1. ready to publish to npm ? add description in `package.json`
-1. once module is published, you should make Pull Requst to [main repo](https://github.com/grafi-tools/grafi) so this module is included in main bundle.
+Threshold module for grafi.js
 
 ## License
 Copyright 2016 Grafi project contributors

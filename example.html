@@ -3,7 +3,7 @@
   <h1>original</h1>
   <img id="original">
   <h1>processed</h1>
-  <div>
+  <div id="slider" hidden>
     <input id="level" type="range" min="0" max="255" value="127"/>
     <label id="label">127</label>
   </div>
@@ -11,6 +11,7 @@
   <canvas id="output"></canvas>
   <script src="grafi-threshold.js"></script>
   <script>
+    var slider = document.getElementById('slider')
     var level = document.getElementById('level')
     var label = document.getElementById('label')
     var original = document.getElementById('original')
@@ -23,6 +24,7 @@
       original.src = reader.result
     }
     original.onload = function () {
+      slider.hidden = false
       output.width = original.width
       output.height = original.height
       canvas.width = original.width

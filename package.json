@@ -1,7 +1,7 @@
 {
   "name": "grafi-threshold",
-  "version": "0.0.0",
-  "description": "",
+  "version": "0.0.1",
+  "description": "Threshold for grafi.js",
   "main": "grafi-threshold.js",
   "scripts": {
     "test": "node grafi-threshold.test.js",
